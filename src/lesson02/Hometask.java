@@ -1,7 +1,7 @@
 package lesson02;
     public class Hometask {
         public static void main(String[] args) {
-
+            // Задача №2
             byte age = 45;
             short numberOfChildren = 3;
             int losses = -8756;
@@ -21,7 +21,7 @@ package lesson02;
             System.out.println(respect);
             System.out.println(firstLetter);
 
-
+            // Задача №3
             int numberAbc = 555;
             int a = (numberAbc -50) / 100;
             int b = numberAbc*2/222;
