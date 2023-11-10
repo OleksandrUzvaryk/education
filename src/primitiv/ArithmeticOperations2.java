@@ -1,4 +1,4 @@
-package lesson02.newPakage;
+package primitiv;
 
 public class ArithmeticOperations2 {
 
