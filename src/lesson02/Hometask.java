@@ -32,9 +32,9 @@ package lesson02;
 
             System.out.println("Task3 'All variables':");
             System.out.println("My number abc is :" + 555.0);
-            System.out.println("a-" + a);
-            System.out.println("b-" + b);
-            System.out.println("c-" + c);
+            System.out.println("variable a = " + a);
+            System.out.println("variable b = " + b);
+            System.out.println("variable c = " + c);
 
 
             // Задача №3-b
@@ -45,10 +45,10 @@ package lesson02;
             int c2 = (numberAbc / 5) - 106;
 
             System.out.println("Task3 'All variables':");
-            System.out.println("My number is :" + numberAbc);
-            System.out.println("a2-" + a2);
-            System.out.println("b2-" + b2);
-            System.out.println("c2-" +c2);
+            System.out.println("My number a2b2c2 is :" + numberAbc);
+            System.out.println("variable a2 = " + a2);
+            System.out.println("variable b2 = " + b2);
+            System.out.println("variable c2 = " +c2);
 
 
 
