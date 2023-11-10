@@ -1,4 +1,4 @@
-package lesson02;
+package lesson02.newPakage;
 
 public class Hello {
 // программа которую мы хотим что бы Джава выполнила
