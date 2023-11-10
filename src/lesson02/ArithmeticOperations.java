@@ -17,12 +17,14 @@ public class ArithmeticOperations {
          int result = x*y;
 
         System.out.println(result);
-
         double xDouble = 10.5;
         double yDouble = 5.5;
 
-        double doubleResult = xDouble + yDouble;
+        double doableResult = xDouble + yDouble;
+
         double xDoubleTwo = x;
+
+
 
     }
 }
