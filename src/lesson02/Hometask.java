@@ -14,14 +14,14 @@ package lesson02;
             char firstLetter = 'M';
 
             System.out.println("Task2 'Primitive values':");
-            System.out.println(age);
-            System.out.println(numberOfChildren);
-            System.out.println(losses);
-            System.out.println(followers);
-            System.out.println(power);
-            System.out.println(energyLevel);
-            System.out.println(respect);
-            System.out.println(firstLetter);
+            System.out.println("age = " + age);
+            System.out.println("numberOfChildren = " + numberOfChildren);
+            System.out.println("losses = " +losses);
+            System.out.println("followers = " + followers);
+            System.out.println("power = " + power);
+            System.out.println("energyLevel = " + energyLevel);
+            System.out.println("respect = " + respect);
+            System.out.println("firstLetter = " + firstLetter);
 
 
             // Задача №3-a
