@@ -2,9 +2,9 @@ package lesson03.hometasks;
 
 public class Task1InfoAboutMe {
 
-    String name;
-    int age;
-    String city;
+    public String name;
+    public int age;
+    public String city;
 
     public void printStory(){
         System.out.println("Меня зовут " + name);

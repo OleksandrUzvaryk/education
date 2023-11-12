@@ -9,7 +9,7 @@ public class Cat {
     public Cat(){
     }
 
-    public Cat(String name){
+    public Cat(String name) {
         this.name = name;
     }
 
