@@ -5,7 +5,7 @@ import lesson03.calculator1.Calculator;
 public class CalculatorDemo {
     public static void main(String[] args) {
         // создадим новый обьект типа Calculator для того
-        // что бы сохранить значения в переменных и пользоваться и пользоваться его методами
+        // что бы сохранить значения в переменных и пользоваться его методами
         Calculator calc = new Calculator();
 
         // сохраним значение в переменных х и у
