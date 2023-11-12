@@ -1,4 +1,4 @@
-package primitiv;
+package lesson02.primitiv;
 
 public class Hello {
 // программа которую мы хотим что бы Джава выполнила

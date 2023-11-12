@@ -1,4 +1,4 @@
-package referenceType;
+package lesson02.referenceType;
 
 public class Dog {
 
