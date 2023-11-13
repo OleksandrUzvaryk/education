@@ -1,4 +1,4 @@
-package task2;
+package lessonextrahw.task1.task2;
 
 public class Konkatenacia {
 
