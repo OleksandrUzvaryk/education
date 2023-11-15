@@ -5,11 +5,12 @@ public class CalculatorNewModelDemo {
     public static void main(String[] args) {
 
         CalculatorNewModel calc = new CalculatorNewModel();
-        int result = calc.sum(10,5);
+        int result = calc.sum(20,510);
 
         System.out.println("Сумма значений = " + result);
 
         result = calc.sub(30,41);
+
 
         System.out.println("Результат вычетания = " + result);
 
