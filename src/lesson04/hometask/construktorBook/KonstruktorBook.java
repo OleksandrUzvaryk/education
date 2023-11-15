@@ -20,7 +20,18 @@ public class KonstruktorBook {
         this.outLibriary = outLibriary;
     }
 
-    public void allParameters(int numberPage,int numberKat, boolean inLib){
+    @Override
+    public String toString() {
+        return "KonstruktorBook{" +
+                "authors='" + authors + '\'' +
+                ", titleBook='" + titleBook + '\'' +
+                ", numberPages=" + numberPages +
+                ", numberKatalogs=" + numberKatalogs +
+                ", outLibriary=" + outLibriary +
+                '}';
+    }
+
+    public void allParameters(int numberPage, int numberKat, boolean inLib){
         System.out.println("2.Number of pages - " + numberPage);
         System.out.println("3.Katalog №" + numberKat);
         System.out.println("4.In liabrary - " + inLib);

@@ -10,8 +10,6 @@ public class Robot {
 
     public void speakHello(){
         System.out.println("Hello!");
-    }
-    public  void speakName(){
         System.out.println("I am Robot " + model + " !!!");
     }
 
