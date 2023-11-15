@@ -1,4 +1,4 @@
-package lesson04.book;
+package lesson04.hometask.book;
 public class BookDemo {
     public static void main(String[] args) {
         System.out.println("\t\t\t\t\tWelcome to our libriary!!!");

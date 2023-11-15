@@ -1,4 +1,4 @@
-package lesson04.construktorBook;
+package lesson04.hometask.construktorBook;
 
 public class KonstruktorBookDemo {
     public static void main(String[] args) {

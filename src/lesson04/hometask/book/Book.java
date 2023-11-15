@@ -1,4 +1,4 @@
-package lesson04.book;
+package lesson04.hometask.book;
 
 public class Book {
     String writer;
