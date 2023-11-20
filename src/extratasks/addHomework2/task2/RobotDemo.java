@@ -1,6 +1,4 @@
-package lessonextrahw.task1;
-
-import lessonextrahw.task1.Robot;
+package extratasks.addHomework2.task2;
 
 public class RobotDemo {
     public static void main(String[] args) {
