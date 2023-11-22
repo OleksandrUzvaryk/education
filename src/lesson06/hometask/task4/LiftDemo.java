@@ -4,14 +4,8 @@ public class LiftDemo {
 
     public static void main(String[] args) {
         Lift result = new Lift();
-
-        System.out.println(result.numberOfLifts(200,50,1));
-
-
-
-
-
+       int solution = result.numberOfLifts(60,59,2);
+        System.out.println( "Количество подьемов лифта составит: " + solution);
 
     }
-
 }

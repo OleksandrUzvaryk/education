@@ -18,6 +18,7 @@ public class Scaner {
         System.out.println("Please enter double number :");
         double numberDouble = input.nextDouble();
         System.out.println("Your number is " + numberDouble);
+        input.close();
 
 
 
