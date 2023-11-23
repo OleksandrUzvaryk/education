@@ -9,35 +9,36 @@ public class Summa {
         // Подсчитать сумму всех четных чисел в диапазоне 0-N
         //при том что N вводится пользователем
 
-
         Scanner scanner = new Scanner(System.in);
-        int sum = 0;
-        boolean condition = true;
 
         System.out.println("Please enter integer number ");
+        int number = scanner.nextInt();
 
-        while (condition){
-            int number = scanner.nextInt();
-            if(number>=0){
-                sum = sum + number;
+        int sum = 0;
 
-            }else {
-                condition = false;
-            }
+
+        for (int i = 0; i < number; i++) {
+            //if (number % 2 == 0)
+                sum = sum + i;
+            System.out.println("Сумма четных чисел в диапазоне составит : " + sum);
+
         }
-        System.out.println("Sum all numbers is :" + sum);
     }
+
 }
 
+   /* int sum = 0;
+    boolean condition = true;
 
- /*   Random random = new Random();
+        System.out.println("Please enter integer number (negative number for exit)");
 
-        for (int i = 0; i < 10; i++) {
-        if (i % 2 ==0){
-        System.out.println(random.nextInt(100));
-        }else {
-        System.out.println(100 + random.nextInt(900));
-        }
+                while (condition){
+                int number = scanner.nextInt();
+                if(number>=0){
+                sum = sum + number;
 
-        }
-*/
+                }else {
+                condition = false;
+                }
+                }
+                System.out.println("Sum all numbers is :" + sum);*/

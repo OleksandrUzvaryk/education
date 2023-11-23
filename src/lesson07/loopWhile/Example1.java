@@ -24,7 +24,7 @@ public class Example1 {
 
             if ((x+y)>100) condition = false;
         }
-        System.out.println("Finish loop while!");
+        System.out.println("Finish lesson07.hometask.loop while!");
 
 
 

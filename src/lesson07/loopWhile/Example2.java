@@ -37,7 +37,7 @@ public class Example2 {
             }
 
         }
-        System.out.println("Finish loop while!");
+        System.out.println("Finish lesson07.hometask.loop while!");
 
     }
 }
