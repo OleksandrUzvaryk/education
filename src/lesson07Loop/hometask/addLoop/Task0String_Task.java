@@ -1,8 +1,8 @@
-package lesson10.dopLoop;
+package lesson07Loop.hometask.addLoop;
 
 
 // Распечатать 10 строк: "Task1", "Task2", ..., "Task10". Использовать цикл for/while.
-public class Task0 {
+public class Task0String_Task {
     public static void main(String[] args) {
 
         String name = "task";

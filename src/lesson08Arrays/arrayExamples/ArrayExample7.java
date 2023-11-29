@@ -8,7 +8,7 @@ public class ArrayExample7 {
 
         for (int i = 0; i < chessBoard.length; i++) {
             for (int j = 0; j < chessBoard[i].length; j++) {
-                if ( (i + j) % 2 == 0) {
+                if ( (i + j) % 2 == 0) {   // 0+0 четный белый, 0+1 нечетный черный,
                     chessBoard[i][j] = " W ";
                 } else {
                     chessBoard[i][j] = " B ";
@@ -16,7 +16,7 @@ public class ArrayExample7 {
             }
         }
 
-       // System.out.println(Arrays.deepToString(chessBoard));
+        System.out.println(Arrays.deepToString(chessBoard));
 
 
         System.out.println("    1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |");

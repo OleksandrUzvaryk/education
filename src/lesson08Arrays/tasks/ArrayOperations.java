@@ -35,7 +35,7 @@ public class ArrayOperations {
 
     public int[] arrayIndexForMaxElements(int[] workingArray){
 
-        int max = workingArray[0];
+        int max = workingArray[0];  // поиск максимума елемента в масиве через цикл
         for (int i = 0; i < workingArray.length; i++) {
             if (workingArray[i] > max) {
                 max = workingArray[i];
@@ -44,13 +44,13 @@ public class ArrayOperations {
 
         int counter = 0;
         for (int i = 0; i < workingArray.length; i++) {
-            if (workingArray[i] == max) {
+            if (workingArray[i] == max) { // вычисление количества повторений максимума
                counter++;
             }
         }
 
         int countIndex = 0;
-        int[] indexArray = new int[counter];
+        int[] indexArray = new int[counter];  // создание массива для сохранения повторяющихся максимальных чисел
         for (int i = 0; i < workingArray.length; i++) {
             if (workingArray[i] == max) {
                 indexArray[countIndex] = i;

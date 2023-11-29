@@ -1,8 +1,10 @@
-package lesson08Arrays.hometask.task1;
+package lesson08Arrays.hometask;
+
+import lesson08Arrays.hometask.task1.Task1ArrayRollOwer;
 
 import java.util.Arrays;
 
-public class Task1Demo {
+public class T {
 
     public static void main(String[] args) {
 
@@ -10,5 +12,11 @@ public class Task1Demo {
 
         Task1ArrayRollOwer rollOwer = new Task1ArrayRollOwer();
         System.out.println(Arrays.toString(rollOwer.reverseArray(workingArray)));
+
+
+
+
     }
+
+
 }
