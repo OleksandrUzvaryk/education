@@ -20,7 +20,7 @@ public class Task1 {
 
       int[] intArray = new int[arraySize];
 
-      ao.fillArrayByRandom(intArray, 20);
+      ao.fillArrayByRandom(intArray, 100);
 
       System.out.println(Arrays.toString(intArray));
 
