@@ -6,8 +6,8 @@ public class CoordinateDemo {
     public static void main(String[] args) {
         CoordinateQuadrantDetect detect = new CoordinateQuadrantDetect();
 
-        int x = 5;
-        int y = -5;
+        int x = 56;
+        int y = -55;
 
         int quadtant = detect.detect(x,y);
 

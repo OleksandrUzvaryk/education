@@ -24,7 +24,7 @@ public class Task3 {
         System.out.println(digit3);
 
         // 2 variant
-        String numberStr  = String.valueOf(number);
+        String numberStr  = String.valueOf(number); // преобразоание типов
         System.out.println(numberStr);
         System.out.println("First number is: " + numberStr.charAt(0));
         System.out.println("First number is: " + numberStr.charAt(1));

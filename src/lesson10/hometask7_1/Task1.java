@@ -6,6 +6,7 @@ public class Task1 {
         int result = 1;
         for (int i = 0; i < pow; i++) {
             result = result * number;
+            System.out.println(result);
         }
         return result;
     }
