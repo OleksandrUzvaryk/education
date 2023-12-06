@@ -1,10 +1,9 @@
 
-package lesson_11SearchandSort.hometask.Binary_1;
+package lesson_11SearchandSort.hometask.binary_1Example;
 
 public class Binary {
 
     int binarySearch(int[] array, int element) {
-        // в начале левая и правая границы равны первому и последнему элементу массива
 
         int leftSide = 0;  // начальный 0 индекс
         int rightSide = array.length - 1; // конечный индекс
@@ -14,7 +13,7 @@ public class Binary {
         while (leftSide <= rightSide) { // условие пока левая и правая границы поиска не пересеклись
 
             int middleIndex = (leftSide + rightSide) / 2;  // делим длинну масива пополам
-            int current = array[middleIndex]; // текущее число в и среднем индексе делаем - делаем числом с которым сравниваем искомое число
+            int current = array[middleIndex]; // текущее число в и среднем индексе  - делаем числом с которым сравниваем искомое число
             if (current == element) { // если текущее число равно искомому - вывод
 
                 return middleIndex;

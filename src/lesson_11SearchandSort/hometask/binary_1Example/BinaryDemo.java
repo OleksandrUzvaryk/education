@@ -1,6 +1,4 @@
-package lesson_11SearchandSort.hometask.Binary_1;
-
-import lesson_11SearchandSort.hometask.Binary_1.Binary;
+package lesson_11SearchandSort.hometask.binary_1Example;
 
 import java.util.Arrays;
 

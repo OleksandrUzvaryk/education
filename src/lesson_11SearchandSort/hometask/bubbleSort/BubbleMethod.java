@@ -1,6 +1,7 @@
-package lesson_11SearchandSort.hometask;
+package lesson_11SearchandSort.hometask.bubbleSort;
 
 
+import java.util.Arrays;
 
 public class BubbleMethod {
 
@@ -11,6 +12,7 @@ public class BubbleMethod {
                     int temporary = workingArray[j];
                     workingArray[j] = workingArray[j + 1];
                     workingArray[j + 1] = temporary;
+                    System.out.println(Arrays.toString(workingArray));
                 }
             }
         }

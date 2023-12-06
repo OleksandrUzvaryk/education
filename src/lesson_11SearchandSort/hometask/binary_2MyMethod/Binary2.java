@@ -1,4 +1,4 @@
-package lesson_11SearchandSort.hometask.Binary_2;
+package lesson_11SearchandSort.hometask.binary_2MyMethod;
 
 public class Binary2 {
 
@@ -8,7 +8,7 @@ public class Binary2 {
         int rightSide = array.length - 1;
 
         while (leftSide < rightSide ) { // условие пока левая и правая границы поиска не пересеклись
-            if (element > array [array.length - 1] || element < array[0]) {System.out.println("The number is not in the array "); return -1;}
+            if (element > array [array.length - 1] || element < array[0]) {System.out.println("The number is not in the array "); return -1;} // условие для неподходящего числа
 
             int middleIndex = (leftSide + rightSide) / 2;
             int currentNumber = array[middleIndex];
@@ -16,8 +16,7 @@ public class Binary2 {
 
             if (currentNumber < element) {leftSide = middleIndex + 1;}
             if (currentNumber > element){rightSide = middleIndex - 1;}
-        } {return -1;}
-        // проверили весь массив, но не нашли элемент
+        } {return -1;}// проверили весь массив, но не нашли элемент
 
     }
 }
