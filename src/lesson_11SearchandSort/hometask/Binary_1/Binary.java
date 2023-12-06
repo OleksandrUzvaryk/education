@@ -1,5 +1,5 @@
 
-package lesson_11SearchandSort.hometask;
+package lesson_11SearchandSort.hometask.Binary_1;
 
 public class Binary {
 
@@ -27,7 +27,7 @@ public class Binary {
                 // если текущее число в среднем индексе больше искомого - сдвигаемся к центру на -1, и новая итерация
                 rightSide = middleIndex - 1;}
 
-        } return -1;
+        } {return -1;}
         // проверили весь массив, но не нашли элемент
 
     }
