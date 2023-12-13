@@ -1,5 +1,6 @@
 package lesson05methstring_15_11.publicAndPrivat.moto;
 
+/*
 public class MotoDemo {
     public static void main(String[] args) {
 
@@ -16,7 +17,8 @@ public class MotoDemo {
 
 
     }
+*/
 
 
 
-}
+/*}*/
