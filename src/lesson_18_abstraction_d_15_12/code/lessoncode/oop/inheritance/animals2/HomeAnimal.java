@@ -1,0 +1,32 @@
+package lesson_18_abstraction_d_15_12.code.lessoncode.oop.inheritance.animals2;
+
+public class HomeAnimal {
+
+    public static void main(String[] args) {
+
+        Dog dog1 = new Dog("Barbos","Volk");
+        Dog dog2 = new Dog("Palkan", "Tigr");
+
+
+        Cat cat1 = new Cat("Murzik");
+        Cat cat2 = new Cat("Murzik");
+
+        Dog[] dogs = {dog1, dog2};
+        Cat[] cats = {cat1, cat2};
+
+        for (int i = 0; i < dogs.length; i++) {
+
+            System.out.println(dogs[i].getName());
+            dogs[i].voice();
+
+        }
+
+        for (int i = 0; i < cats.length; i++) {
+            System.out.println(cats[i].getName());
+            cats[i].voice();
+            cats[i].greating();
+        }
+
+    }
+
+}

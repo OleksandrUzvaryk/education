@@ -1,0 +1,15 @@
+package lesson_18_abstraction_d_15_12.code.lessoncode.oop.inheritance.animals2;
+
+public class Animal {
+    private String name;
+
+
+    public Animal(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+    public void voice(){};
+}
