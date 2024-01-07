@@ -5,7 +5,7 @@ public class LinearSearch {
 
         int[] arrayForSearch = {8,3,5,2,1,4,7,6};
 
-        int elementForSearch = -1;
+        int elementForSearch = -3;
 
         int indexSearch = -1;
 

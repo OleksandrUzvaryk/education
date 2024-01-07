@@ -33,8 +33,6 @@ public void game(){
     cardTableUtil.dealCards(cards.getDeckShuffle(), numberCardsForEachPlayer, numberOfPayers, players); // раздача карт игрокам
     printServices.printPlayers(players); // распечатка игроков
 
-
-
 }
 
 

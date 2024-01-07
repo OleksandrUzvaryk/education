@@ -9,10 +9,13 @@ public class Square extends Shape {
     }
 
 
+    public double getSideA() {
+        return sideA;
+    }
 
-
-
-
+    public void setSideA(double sideA) {
+        this.sideA = sideA;
+    }
 
     @Override
     public double calculatorArea() {
@@ -22,5 +25,12 @@ public class Square extends Shape {
     @Override
     public double calculatorPerimetr() {
         return 4 * sideA;
+    }
+
+    @Override
+    public String toString() {
+        return "Square{" +
+                "sideA=" + sideA +
+                '}';
     }
 }

@@ -18,7 +18,7 @@ public class CardTableUtil {
         for (int i = 0; i < numberCardsForEachPlayers; i++) {
             for (int j = 0; j < numberOfPayers; j++) {
                 players[j].getPlayerCards()[i] = deck[counter];
-                counter++;
+               counter++;
             }
 
         }

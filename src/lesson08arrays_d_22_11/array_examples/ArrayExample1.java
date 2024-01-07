@@ -9,6 +9,8 @@ public class ArrayExample1 {
         arrayInt[1] = 9;
         arrayInt[2] = 6;
 
+        System.out.println(arrayInt[1]);
+
         System.out.println(Arrays.toString(arrayInt));
         System.out.println(arrayInt[0] + arrayInt[1] + arrayInt[2] );
 

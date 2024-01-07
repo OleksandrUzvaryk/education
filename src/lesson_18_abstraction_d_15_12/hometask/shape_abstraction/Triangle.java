@@ -15,6 +15,38 @@ public class Triangle extends Shape {
         this.height = height;
     }
 
+    public double getSideA() {
+        return sideA;
+    }
+
+    public void setSideA(double sideA) {
+        this.sideA = sideA;
+    }
+
+    public double getSideBase() {
+        return sideBase;
+    }
+
+    public void setSideBase(double sideBase) {
+        this.sideBase = sideBase;
+    }
+
+    public double getSideC() {
+        return sideC;
+    }
+
+    public void setSideC(double sideC) {
+        this.sideC = sideC;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
     @Override
     double calculatorArea() {
         return sideBase*height/2;
@@ -23,5 +55,15 @@ public class Triangle extends Shape {
     @Override
     double calculatorPerimetr() {
         return sideA + sideBase + sideC;
+    }
+
+    @Override
+    public String toString() {
+        return "Triangle{" +
+                "sideA=" + sideA +
+                ", sideBase=" + sideBase +
+                ", sideC=" + sideC +
+                ", height=" + height +
+                '}';
     }
 }

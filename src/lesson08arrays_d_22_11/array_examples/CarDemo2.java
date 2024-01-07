@@ -21,11 +21,23 @@ public class CarDemo2 {
 
 
         System.out.println(garage1.length);
+        System.out.println(garage1[5]);
 
-        for (int i = 0; i < garage1.length ; i++) {
+
+
+      /*  for (int i = 0; i < garage1.length ; i++) {
             System.out.println(garage1[i]);
+
+*/
+
+           int [] numb = {1,3,12,147,3,987,5};
+            for (int myN: numb
+                 ) {
+                System.out.println(myN);
+
+            }
 
         }
 
     }
-}
+

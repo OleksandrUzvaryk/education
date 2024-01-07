@@ -11,6 +11,15 @@ public class Task1 {
         return result;
     }
 
+    public double average2 (double number){
+       double result = 0;
+        for (int i = 0; i <=number ; i++) {
+            result= result + i;
+        } return result/number;
+    }
+
+
+
     public double average(int[] numbers){
         double sum = 0;
         for (int i = 0; i < numbers.length; i++) {

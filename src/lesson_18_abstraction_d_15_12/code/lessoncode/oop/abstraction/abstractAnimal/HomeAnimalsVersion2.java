@@ -13,6 +13,7 @@ public class HomeAnimalsVersion2 {
 
         Animal[] animals = {dog1, dog2, cat1, cat2, parrot1};
 
+
 // вывести на экран все имена собак и кошек с использованием массивов
 
         for (int i = 0; i < animals.length; i++) {

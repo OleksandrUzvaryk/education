@@ -10,12 +10,6 @@ public class Task3 {
         { if(x % 5 == 0 && x < 7){
             System.out.println(x);
         x++;}
-            else ;
-
-
-
-
-
 
 
     }

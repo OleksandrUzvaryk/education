@@ -27,19 +27,3 @@ public class Summa {
 
 }
 
-
-   /* int sum = 0;
-    boolean condition = true;
-
-        System.out.println("Please enter integer number (negative number for exit)");
-
-                while (condition){
-                int number = scanner.nextInt();
-                if(number>=0){
-                sum = sum + number;
-
-                }else {
-                condition = false;
-                }
-                }
-                System.out.println("Sum all numbers is :" + sum);*/

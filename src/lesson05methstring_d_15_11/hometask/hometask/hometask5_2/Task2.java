@@ -1,4 +1,4 @@
-package lesson05methstring_d_15_11.hometask.hometask5_2;
+package lesson05methstring_d_15_11.hometask.hometask.hometask5_2;
 
 public class Task2 {
 /*    Введите 2 слова, используйте сканер. Получить слово, состоящее из первой половины первого слова и второй половины
@@ -6,13 +6,13 @@ public class Task2 {
 
     */
 
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
 
-        UserWordInput ui = new UserWordInput(); // создать новый екземпляр класса где есть метод ввода с консоли
+       *//* UserWordInput ui = new UserWordInput(); // создать новый екземпляр класса где есть метод ввода с консоли
 
         String word1 = ui.userWordInput("Please enter first word: ");   // запросить ввод слов через созданный метод
         String word2 = ui.userWordInput("Please enter second word: ");
-
+*//*
         int word1length = word1.length() / 2;
         String firstPart = word1.substring(0,word1length);
 
@@ -24,9 +24,7 @@ public class Task2 {
         System.out.println(finalWord);
 
 
+*/
 
-
-
-    }
 
 }

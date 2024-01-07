@@ -5,9 +5,10 @@ public class BinaryDemo2 {
 
 
         int[] array = {1,2,3,4,5,6,7,8};
-        int elementForSearch = -1;
-        Binary2 test = new Binary2();
-        test.binarySearch2(array,elementForSearch);
+        int elementForSearch = -3;
+        Binary2 service = new Binary2();
+        int result = service.binarySearch2(array,elementForSearch);
+
 
     }
 }

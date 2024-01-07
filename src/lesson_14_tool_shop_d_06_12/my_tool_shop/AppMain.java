@@ -11,6 +11,8 @@ public class AppMain {
         ComplektaciaInstrumentov complektaciaInstrumentov3 = new ComplektaciaInstrumentov(khranenie.getInstruments()[4], khranenie.getInstruments()[5]);
 
         SkladNaborov skladNaborov = new SkladNaborov(complektaciaInstrumentov1,complektaciaInstrumentov2,complektaciaInstrumentov3); // заполнение массива класса SkladNaborov - 3 массивами класса ComplektaciaInstrumentov
+
+
             for (int i = 0; i < skladNaborov.getNabor().length; i++) { // прогон всех наборов через печать
             System.out.println("Набор № " + i + ": ");
 
@@ -29,6 +31,7 @@ public class AppMain {
             System.out.println("tool name: " + instrumentFromNabor2.getNameInstrument());
             System.out.println("description name: " + instrumentFromNabor2.getOpisanieInstrument());
             System.out.println("price : " + instrumentFromNabor2.getCenaInstrument());
+                System.out.println("_____________________________________________");
         }
     }
 }

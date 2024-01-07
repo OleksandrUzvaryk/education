@@ -13,6 +13,8 @@ public class Task3Demo {
         int[] result = service.arrayFindTheSame(myArray);
         System.out.println(Arrays.toString(result));
 
+        int resultF = service.countRepeat(myArray,1);
+        System.out.println(resultF);
 
     }
 }

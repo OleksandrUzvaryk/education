@@ -12,7 +12,7 @@ public class ConditionOperators3 {
         x = scanner.nextInt();
 
         // определить в какой диапазон входит число, 0-100, 100-200, в какой то другой диапазон
-        if (x >= 0) {
+       /* if (x >= 0) {
             if (x <= 100) {
                 System.out.println("Diapason 1");
             } else if (x <= 200) {
@@ -20,14 +20,15 @@ public class ConditionOperators3 {
             } else
                 System.out.println("Out of range!");}
          else
-            System.out.println("Out of range! (negative)");
+            System.out.println("Out of range! (negative)");*/
 
-        if (x >= 0 && x <= 100) {
+        if
+        (x >= 0 && x <= 100) {
             System.out.println("Diapason 1");
         } else if (x > 100 && x <= 200) {
             System.out.println("Diapason 2");
-        } else {
-            System.out.println("Out of range");
+        } else if (x<200 && x>0) {System.out.println("Out of range positive");}
+            else {System.out.println("Out of range negative");
         }
 
         System.out.println((true && true) && (true || false));

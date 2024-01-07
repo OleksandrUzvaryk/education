@@ -7,7 +7,6 @@ public class Cow {
 
     public String cowFraze(int n) {
 
-        String phrase = "";
 
         String fraze = "";
         if (n < 1 || n > 10 ){

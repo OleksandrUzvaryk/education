@@ -9,8 +9,8 @@ public class Task4 {
         int sum = 0;
 
         while (number > 0) {
-            sum = sum + number % 10;
-            number = number / 10;
+            sum = sum + number % 10; // 0 + 3
+            number = number / 10; // 12
         }
         /*
         123

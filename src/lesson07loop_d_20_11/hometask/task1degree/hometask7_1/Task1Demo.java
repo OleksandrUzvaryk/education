@@ -8,7 +8,10 @@ public class Task1Demo {
 
         System.out.println("Возведение числа 3 в степень 4: " + task1.pow(3,4) );
 
-        int[] aver = {1,2,3,4,5,6,7,8,9};
-        System.out.println("Среднее арифметическое чисел " + Arrays.toString(aver) + " : " + task1.average(aver));
+        System.out.println("Среднее арифметическое " + task1.average2(15.5));
+
+
+       /* int[] aver = {1,2,3,4,5,6,7,8,9};
+        System.out.println("Среднее арифметическое чисел " + Arrays.toString(aver) + " : " + task1.average(aver));*/
     }
 }

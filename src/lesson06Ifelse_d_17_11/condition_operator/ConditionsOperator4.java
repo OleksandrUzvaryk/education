@@ -4,7 +4,7 @@ public class ConditionsOperator4 {
 
     public static void main(String[] args) {
                 // идем на уличу при условии солнца и без дождя
-        boolean isRain = true;
+        boolean isRain = false;
         boolean isSun = true;
 
         if (isSun && !isRain){

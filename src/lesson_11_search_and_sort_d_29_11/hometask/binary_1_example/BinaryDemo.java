@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class BinaryDemo {
     public static void main(String[] args) {
 
-        int[] array = {1,2,3,4,5,6,7,8};
-        int elementForSearch =42;
+        int[] array = {112,224,3000,4457,51279,600345,700000,800000};
+        int elementForSearch =-2214;
         Binary binary = new Binary();
-        System.out.println("Our number has index: " + Arrays.binarySearch(array,elementForSearch));
-
+        int result = binary.binarySearch(array,elementForSearch);
+        System.out.println(result);
 
 
         }

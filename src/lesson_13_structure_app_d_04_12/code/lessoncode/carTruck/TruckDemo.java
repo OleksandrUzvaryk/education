@@ -8,5 +8,7 @@ public class TruckDemo {
 
         Engine engineForOurTruckNewModel = new Engine("V8000", 16000, true);
         myTruck.engine = engineForOurTruckNewModel;
+
+
     }
 }

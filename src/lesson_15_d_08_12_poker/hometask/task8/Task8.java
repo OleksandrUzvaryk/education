@@ -23,6 +23,9 @@ public class Task8 {
                 scanner.next();
             }
         }
+
+
+
         int [] array1 = new int[n];
         int evenNums = 0;
 

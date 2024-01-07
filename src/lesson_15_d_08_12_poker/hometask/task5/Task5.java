@@ -10,12 +10,12 @@ public class Task5 {
         Random random = new Random();
         int[] intArray = new int[12];
         for (int i = 0; i < intArray.length; i++) {
-            intArray[i] = (int )(Math.random()*31) - 15;
+            intArray[i] = random.nextInt(-15,16);
         }
         System.out.println(Arrays.toString(intArray));
 
         int max = intArray[0];
-        int indexMax = 0;
+        int indexMax = -1;
 
         for (int i = 0; i < intArray.length; i++) {   // сравнивание при минимуме с 1 позиции цыкла
             if(intArray[i]>max){
